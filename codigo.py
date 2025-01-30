@@ -19,3 +19,12 @@ plt.show()
 
 print(bins)
 print(count)
+
+count2, bins2, ignored2 = plt.hist(x=vals, bins=30)
+plt.title('Histograma de tiempos de servicio')
+plt.xlabel('Tiempos de servicio')
+plt.ylabel('Frecuencia')
+plt.show()
+
+print(bins2)
+print(count2)
